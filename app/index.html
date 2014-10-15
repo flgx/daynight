@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="es-ES">
+ <head>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <title>Pako blog</title>
+ <meta name="description" content="">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <!-- Coloca favicon.ico y apple-touch-icon(s) en el directorio raíz -->
+<!-- build:css css/style.min.css -->
+ <!-- bower:css -->
+ <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />
+ <link rel="stylesheet" href="lib/fontawesome/css/font-awesome.css" />
+ <!-- endbower -->
+ <!-- inject:css -->
+ <link rel="stylesheet" href="/stylesheets/main.css">
+ <!-- endinject -->
+ </head>
+ <body ng-app='blog'>
+ <!--[if lt IE 8]>
+ <p class="browsehappy">
+ Estás usando un navegador <strong>desactualizado</s
+trong>.
+ Por favor <a href="http://browsehappy.com/">actuali
+za tu navegador</a>
+ Para mejorar la experiencia..
+III. Anatomía de una aplicación AngularJS.
+3.1 HTML5Boilerplate
+
+</p>
+ <![endif]-->
+<a ng-href="/"> Home {{2+2 }}</a>
+<div class="container-fluid">
+	<div class="row">
+		<aside class="col-xs-3">
+			<a ng-href="/new">Crear entrada</a>
+		</aside>    
+		<section class="col-xs-9" ng-view></section>
+	</div>
+
+</div>
+
+
+ <!-- Google Analytics: Cambia UA-XXXXX-X por el ID de t
+u sitio -->
+ <script>
+ (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[
+l]||(b[l]=
+ function(){(b[l].q=b[l].q||[]).push(arguments)});b[
+l].l=+new Date;
+ e=o.createElement(i);r=o.getElementsByTagName(i)[0]
+;
+ e.src='//www.google-analytics.com/analytics.js';
+ r.parentNode.insertBefore(e,r)}(window,document,'sc
+ript','ga'));
+ ga('create','UA-XXXXX-X','auto');ga('send','pagevie
+w');
+
+
+ </script>
+<!-- build:js js/app.min.js -->
+<!-- build:js js/vendor.min.js -->
+  <!--bower:js -->
+
+  <!-- endbower -->
+ <!-- inject:js -->
+
+ <!-- endinject -->
+ </body>
+</html>
